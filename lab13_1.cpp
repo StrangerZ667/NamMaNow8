@@ -26,7 +26,6 @@ void stat(const double A[],int N,double B[]){
         sum+=A[i];
         har+=(1/A[i]);
         if(A[i] > B[4]) B[4] = A[i];
-        if(A[i] < B[5]) B[5] = A[i];
     }
     B[3] = N/har;
     B[0] = sum/N;
